@@ -1,8 +1,8 @@
 FROM alpine
 
-LABEL maintainer="Gianluca Gabrielli" mail="tuxmealux+dockerhub@protonmail.com"
-LABEL description="rTorrent on Alpine Linux, with a better Docker integration."
-LABEL website="https://github.com/TuxMeaLux/alpine-rtorrent"
+LABEL maintainer="benisboy" mail=""
+LABEL description="rtorrent"
+LABEL website=""
 LABEL version="1.0"
 
 ARG UGID=666

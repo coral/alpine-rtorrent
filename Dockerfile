@@ -5,7 +5,7 @@ LABEL description="rtorrent"
 LABEL website=""
 LABEL version="1.0"
 
-ARG UGID=666
+ARG UGID=1003
 
 RUN addgroup -g $UGID rtorrent && \
     adduser -S -u $UGID -G rtorrent rtorrent && \
